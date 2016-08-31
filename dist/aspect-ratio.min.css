@@ -2,4 +2,4 @@
  * Aspect-Ratio.css v0.1.0
  * Copyright 2016 Tom Lutzenberger
  * Licensed under the MIT license
- */.ar{height:0;overflow:hidden;position:relative}.ar-content{display:table;height:100%;position:absolute;top:0;width:100%}.ar-content>.ar-center{display:table-cell;vertical-align:middle}.ar-1-1{padding-top:200%}.ar-2-1{padding-top:50%}.ar-4-3{padding-top:75%}.ar-16-9{padding-top:56.25%}.ar-16-10{padding-top:62.5%}.ar-golden{padding-top:61.80469716%}
+ */.ar{height:0;overflow:hidden;position:relative}.ar-content{display:table;height:100%;position:absolute;top:0;width:100%}.ar-content>.ar-center{display:table-cell;vertical-align:middle}.ar-1-1{padding-top:100%}.ar-2-1{padding-top:50%}.ar-4-3{padding-top:75%}.ar-16-9{padding-top:56.25%}.ar-16-10{padding-top:62.5%}.ar-golden{padding-top:61.80469716%}
