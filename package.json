@@ -1,0 +1,21 @@
+{
+  "name": "aspect-ratio.css",
+  "version": "0.1.0",
+  "description": "A CSS library to easily apply aspect ratios",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Lutzenberger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomlutzenberger/aspect-ratio.css.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
