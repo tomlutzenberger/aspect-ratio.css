@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Aspect-Ratio.css</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+  <link rel="stylesheet" href="../dist/aspect-ratio.css">
+  <link rel="stylesheet" href="assets/docs.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h1>aspect-ratio.css<br><small>v0.1.0</small></h1>
+        <p class="lead">A CSS library to easily apply aspect ratios</p>
+      </div>
+    </div>
+
+
+    <hr>
+
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Different aspect ratios</h2>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 text-center">
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="ar ar-1-1">
+              <div class="ar-content">1:1</div>
+            </div>
+          </div>
+
+          <div class="col-xs-4">
+            <div class="ar ar-4-3">
+              <div class="ar-content">4:3</div>
+            </div>
+          </div>
+
+          <div class="col-xs-4">
+            <div class="ar ar-16-10">
+              <div class="ar-content">16:10</div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 text-center">
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="ar ar-golden">
+              <div class="ar-content">Golden ratio<br>(16.18:10)</div>
+            </div>
+          </div>
+
+          <div class="col-xs-4">
+            <div class="ar ar-16-9">
+              <div class="ar-content">16:9</div>
+            </div>
+          </div>
+
+          <div class="col-xs-4">
+            <div class="ar ar-2-1">
+              <div class="ar-content">2:1</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <h3>Example</h3>
+        <pre><code class="html">
+&lt;div class="ar ar-16-9"&gt;
+  &lt;div class="ar-content"&gt;16:9&lt;/div&gt;
+&lt;/div&gt;
+        </code></pre>
+      </div>
+    </div>
+
+
+    <hr>
+
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Vertical centering</h2>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 text-center">
+        <div class="row">
+          <div class="col-xs-6 text-center">
+            <div class="ar ar-1-1">
+              <div class="ar-content">
+                <div class="ar-center">
+                  <p>1:1</p>
+                  <p>Vertical<br>centered<br>content</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 text-center">
+            <div class="ar ar-16-9">
+              <div class="ar-content">
+                <div class="ar-center">
+                  <p>16:9</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6">
+        <h3>Example</h3>
+        <pre><code class="html">
+&lt;div class="ar ar-16-9"&gt;
+  &lt;div class="ar-content"&gt;
+    &lt;div class="ar-center"&gt;
+      &lt;p&gt;16:9&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+        </code></pre>
+      </div>
+    </div>
+
+
+    <hr>
+
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Nesting</h2>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 text-center">
+        <div class="ar ar-2-1">
+          <div class="ar-content">
+            <div class="ar-center">
+              <p>2:1</p>
+              <div class="row">
+                <div class="col-xs-4">
+                  <div class="ar ar-1-1">
+                    <div class="ar-content">
+                      <div class="ar-center">
+                        <p>1:1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-4">
+                  <div class="ar ar-1-1">
+                    <div class="ar-content">
+                      <div class="ar-center">
+                        <p>1:1</p>
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <div class="ar ar-16-9">
+                              <div class="ar-content">
+                                <div class="ar-center">16:9</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-4">
+                  <div class="ar ar-1-1">
+                    <div class="ar-content">
+                      <div class="ar-center">
+                        <p>1:1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6">
+        <h3>Example</h3>
+        <pre><code class="html">
+&lt;div class="ar ar-2-1"&gt;
+  &lt;div class="ar-content"&gt;
+    2:1
+    &lt;!-- row + columns --&gt;
+    &lt;div class="ar ar-1-1"&gt;
+      &lt;div class="ar-content"&gt;
+        1:1
+        &lt;!-- row + columns --&gt;
+        &lt;div class="ar ar-16-9"&gt;
+          &lt;div class="ar-content"&gt;16:9&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+          </code></pre>
+        <div class="alert alert-warning"><strong>Warning!</strong><br>May cause unexpected results. Make sure you handle the width of the nested elements.</div>
+      </div>
+    </div>
+
+
+    <hr>
+
+
+    <div class="row">
+      <div class="col-xs-12">
+        <footer>
+          <p class="text-center">
+            2016 by Tom Lutzenberger<br>
+            <a href="https://github.com/tomlutzenberger/life-advices" title="Contribute on GitHub" target="_blank">Contribute on GitHub</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>

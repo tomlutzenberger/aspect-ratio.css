@@ -1,0 +1,26 @@
+/*!
+ * Aspect-Ratio.css v0.1.0
+ * Copyright 2016 Tom Lutzenberger
+ * Licensed under the MIT license
+ */
+
+.ar {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.ar-content {
+  display: table;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  & > .ar-center {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@import "ratios.less";

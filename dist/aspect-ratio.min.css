@@ -1,0 +1,5 @@
+/*!
+ * Aspect-Ratio.css v0.1.0
+ * Copyright 2016 Tom Lutzenberger
+ * Licensed under the MIT license
+ */.ar{height:0;overflow:hidden;position:relative}.ar-content{display:table;height:100%;position:absolute;top:0;width:100%}.ar-content>.ar-center{display:table-cell;vertical-align:middle}.ar-1-1{padding-top:100%}.ar-2-1{padding-top:50%}.ar-4-3{padding-top:75%}.ar-16-9{padding-top:calc(100% / (16/9))}.ar-16-10{padding-top:calc(100% / 1.6)}.ar-golden{padding-top:calc(100% / 1.618)}
