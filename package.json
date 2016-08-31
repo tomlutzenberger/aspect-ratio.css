@@ -1,6 +1,6 @@
 {
   "name": "aspect-ratio.css",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "A CSS library to easily apply aspect ratios",
   "main": "Gruntfile.js",
   "scripts": {
