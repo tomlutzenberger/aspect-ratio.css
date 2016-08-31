@@ -20,7 +20,7 @@
   vertical-align: middle;
 }
 .ar-1-1 {
-  padding-top: 100%;
+  padding-top: 200%;
 }
 .ar-2-1 {
   padding-top: 50%;
@@ -29,11 +29,11 @@
   padding-top: 75%;
 }
 .ar-16-9 {
-  padding-top: calc(100% / (16/9));
+  padding-top: 56.25%;
 }
 .ar-16-10 {
-  padding-top: calc(100% / 1.6);
+  padding-top: 62.5%;
 }
 .ar-golden {
-  padding-top: calc(100% / 1.618);
+  padding-top: 61.80469716%;
 }
