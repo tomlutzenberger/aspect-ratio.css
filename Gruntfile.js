@@ -10,13 +10,11 @@ module.exports = function (grunt) {
 
     // watch task
     watch: {
-      // observe all *.css files and lint them
       css: {
         files: 'dist/*.css',
         tasks: ['csslint'],
         options: {}
       },
-      // observe all *.less files, execute less task on change and reload the site
       less: {
         files: 'less/*.less',
         tasks: ['less'],
