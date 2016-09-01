@@ -1,5 +1,5 @@
 /*!
- * Aspect-Ratio.css v0.3.0
+ * Aspect-Ratio.css v0.5.0
  * Copyright 2016 Tom Lutzenberger
  * Licensed under the MIT license
- */.ar{height:0;overflow:hidden;position:relative}.ar-content{display:table;height:100%;position:absolute;top:0;width:100%}.ar-content>.ar-center{display:table-cell;vertical-align:middle}.ar-1-1,.ar-square{padding-top:100%}.ar-2-1{padding-top:50%}.ar-1-2{padding-top:200%}.ar-4-3{padding-top:75%}.ar-3-4{padding-top:133.33333333%}.ar-16-9{padding-top:56.25%}.ar-9-16{padding-top:177.77777778%}.ar-16-10{padding-top:62.5%}.ar-10-16{padding-top:160%}.ar-golden{padding-top:61.80469716%}.ar-golden-v{padding-top:161.8%}
+ */.ar{height:0;overflow:hidden;position:relative}.ar-content{display:table;height:100%;position:absolute;top:0;width:100%}.ar-content>.ar-center{display:table-cell;vertical-align:middle}.ar-2-1{padding-top:50%}.ar-1-2{padding-top:200%}.ar-3-2{padding-top:66.66666667%}.ar-2-3{padding-top:150%}.ar-4-3{padding-top:75%}.ar-3-4{padding-top:133.33333333%}.ar-5-3{padding-top:60%}.ar-3-5{padding-top:166.66666667%}.ar-5-4{padding-top:80%}.ar-4-5{padding-top:125%}.ar-16-9{padding-top:56.25%}.ar-9-16{padding-top:177.77777778%}.ar-16-10{padding-top:62.5%}.ar-10-16{padding-top:160%}.ar-21-9{padding-top:42.85714286%}.ar-9-21{padding-top:233.33333333%}.ar-1-1,.ar-square{padding-top:100%}.ar-golden{padding-top:61.80469716%}.ar-golden-v{padding-top:161.8%}
